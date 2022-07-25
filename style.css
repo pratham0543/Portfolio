@@ -10,7 +10,7 @@
     text-align: center;
     font-family: sans-serif;
     font-weight: 700;
-    height:5vw;
+    height:6vw;
     width: auto;
     padding: 20px;
     font-family: var(--font);
@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    background-color: white;
 }
 
 /* Portfolio heading */
@@ -101,13 +102,15 @@ hr{
 
     background-color:var(--color);
     height:40em;
-    width: 100%;
+    width: 91%;
     border-bottom-left-radius:50%; 
     border-bottom-right-radius:50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: var(--font);
+    margin-right: auto;
+    margin-left:auto;
     
 }
 #about-me{
@@ -205,4 +208,276 @@ object-fit: cover;
     color:black;
     font-size: 1.2vw;
 
+}
+
+
+/* Education section */
+
+.Education{
+    width: 100%;
+    
+
+}
+.section-heading{
+    font-family: var(--font);
+    font-weight: 600;
+    text-align: center;
+    font-size: 2vw;
+
+}
+
+/* education cards */
+#education-cards{
+    width:88%;
+    height: 22em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+}
+
+.edu-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:20%;
+    background-color: white;
+    box-shadow: 0px 5px 20px 1px;
+    transition: 0.5s transform ease;
+
+}
+.edu-cards:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    
+}
+.edu-cards .card-img{
+    height: 50%;
+    padding-top:7%;
+    
+}
+
+.edu-cards .card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.edu-cards .card-content{
+    padding: 7%;
+    text-align: center;
+    font-family: var(--font);
+}
+
+.edu-cards .card-content h5{
+    font-size: 1.2em;
+    font-weight: 800;
+
+}
+.edu-cards .card-detail p{
+    margin-bottom: 0.5rem;
+}
+
+/* Skills section */
+#Skills{
+    background: linear-gradient(to bottom right, rgba(255,241,198,1) 0%, rgba(255,216,97,1) 59%);
+    padding: 2em;
+    width: 87%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+#skill-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+
+
+}
+.skills{
+    width:21%;
+    height:70%;
+    text-align: center;
+    padding: 1em;
+     
+
+}
+.skills img{
+    object-fit: contain;
+    width: 29%;
+}
+.skills .skill-content{
+    font-family: var(--font);
+    font-size: 1em;
+
+}
+.skill-content p:nth-child(1)
+{
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.skill-content p:nth-child(2)
+{
+    font-size: 1vw;
+}
+.skills:nth-child(2) img{
+      
+       width: 22%;
+}
+.skills:nth-child(5),.skills:nth-child(6){
+    margin-top:5px;
+}
+
+
+
+
+
+/* Project section */
+
+#carouselExampleCaptions{
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font);
+	
+}
+#carouselExampleCaptions img{
+	height: 100%;
+	filter: brightness(50%);
+	/* max-height: 600px; */
+}
+
+
+.carousel-caption h5
+{
+font-weight: 600;
+font-size:1.3em
+}
+
+.carousel-caption p{
+      font-size:1.3vw;
+
+}
+.carousel-caption p span{
+    font-weight: 660;
+}
+
+
+.carousel-caption p #spot
+{
+    color:#1ED760;
+}
+
+
+/* Intersts section */
+#intrest{
+    color:white;
+    background-color: #04091E;
+    font-family: var(--font);
+    padding: 2em;
+    
+}
+#intrest h1{
+    text-align: start;
+}
+#flex-interest{
+    display: flex;
+
+
+}
+#intrest-content{
+    width:50%;
+}
+#intrest-content h6{
+   font-size:1.2vw;
+   
+}
+
+#contact-form{
+    align-self: center;
+    margin-left:auto;
+   margin-right:auto;
+
+}
+.intrest-item{
+  margin-bottom:1.2px;
+}
+
+#ques-btn{
+    background-color: var(--hover-color);
+}
+
+.input-group{
+    width:90% !important;
+}
+
+#inp:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+/* Follow me section */
+#follow-me{
+    font-family: var(--font);
+    margin-top:3.5em;
+    
+    
+}
+
+#follow-me h6{
+   font-size: 1.2vw;   
+   text-align: center;
+}
+#follow-links{
+    text-align: center;
+}
+#follow-me h6 span{
+    color:var(--hover-color);
+    margin-right:2px;
+}
+#follow-links a{
+    color:white;
+    
+}
+#follow-links div{
+    display: inline-block;
+    margin-right: 1.2em;
+    position:relative;
+    left:0.5em;
+    transition:transform 0.25s ;
+}
+#follow-links div:hover{
+    transform: translateY(-7px) ;
+}
+
+#follow-links div a:hover{
+    color:var(--hover-color)
+}
+
+#copyright p{
+    color:#625F5F;
+    font-size:0.8vw;
+    text-align: center;
+}
+
+
+
+
+/* reveal and active css */
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.2s ease;
+
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
 }

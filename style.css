@@ -69,7 +69,9 @@
     border-bottom: 2px solid var(--hover-color);
     color:var(--hover-color)
 }
-
+.dropdown{
+    display: none;
+}
 
 
 
@@ -80,7 +82,13 @@
  top:10%;
  width: 9%;
 }
-
+#resume-tag{
+    text-decoration: none;
+    color:black ;
+}
+#resume-butn button:hover a{
+    color:white;
+}
 
 /* resume button */
 #resume-butn button{
@@ -463,6 +471,7 @@ font-size:1.3em
     font-size:0.8vw;
     text-align: center;
 }
+
 
 
 

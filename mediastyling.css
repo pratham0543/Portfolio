@@ -344,6 +344,7 @@
     font-size: 0.9em;
     font-family: 'Lato',sans-serif !important;
     transition: all 0.8s ease-out;
+    color:#ffd861;
   
 }
 .dropdown ul a{

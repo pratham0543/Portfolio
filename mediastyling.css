@@ -328,7 +328,7 @@
 .dropdown-toggle{
     font-size: 18px;
     text-decoration: none;
-     color:#ffd861;
+     
 }
 .dropdown-toggle::after{
     display: none !important;
@@ -349,7 +349,7 @@
 }
 .dropdown ul a{
     font-family: 'Lato',sans-serif;
-     color:#ffd861;
+    
 }
 
 

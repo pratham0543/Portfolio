@@ -328,6 +328,7 @@
 .dropdown-toggle{
     font-size: 18px;
     text-decoration: none;
+    color: black;
      
 }
 .dropdown-toggle::after{

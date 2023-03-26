@@ -490,3 +490,10 @@ font-size:1.3em
     transform: translateY(0px);
     opacity: 1;
 }
+.fitology a{
+    color:white;
+    text-decoration: none;
+}
+.fitology a:hover{
+    color:white;
+}

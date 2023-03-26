@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* media query for devices <= 999 */
+
+/* Screen sizes are 999px,  */
+@media  screen and (max-width:999px) {
+    .edu-cards{
+        width:26%;
+    }
+    #list-items li{
+        font-size:1em;
+
+    }
+    #main-about{
+        font-size:1em;
+
+    }
+    #about-me h1{
+        font-size:1.9em;
+
+    }
+    #occupation{
+        font-size:1.3em;
+    }
+    #about-me p{
+        font-size:1em;
+    }
+    #contact-icon div a{
+        font-size:1.3em;
+    }
+    
+#hire-btn a:nth-child(1){
+    font-size:1.3em;
+}
+#hire-btn span i{
+    font-size:1.3em;
+}
+#hire-btn a:nth-child(2) {
+    font-size:1em;
+    margin-left:2px;
+}
+#about-image {
+    width: 30%;
+    height: 37%;
+}
+.skill-content p:nth-child(1){
+    font-size:1em;
+}
+.skill-content p:nth-child(2) {
+    font-size: 12px;
+}
+.skills {
+    width: 26%;
+}
+#html{
+    width:38%;
+}
+.skills:nth-child(4)
+{
+    margin-top:10px;
+}
+#intrest-content h6 {
+    font-size: 1.2em;
+}
+#follow-me {
+    margin-top: 2.5em;
+}
+#follow-me h6{
+   font-size:1.2em;
+}
+#follow-links div a{
+   font-size:1.2em;
+}
+#copyright p{
+    font-size:0.8em;
+}
+}
+
+
+
+
+
+
+@media  screen and (max-width:900px) 
+{
+    .section-heading{
+        font-size: 1.2em;
+    }
+    #about-me p {
+        font-size: 13px;
+    }
+    #about{
+        border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 32%;
+    }
+    #hire-btn a:nth-child(2) {
+        font-size: 0.8em;
+    }
+    #hire-btn span i {
+        font-size: 1.1em;
+    }
+    #contact-icon div a {
+        font-size: 1.4em;
+    }
+    .carousel-caption.d-none {
+        display:block !important;
+    }
+    .carousel-caption h5 {
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+    .carousel-caption p {
+        font-size: 0.8em;
+    }
+    .carousel-caption p span{
+        font-weight: 500;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        height:1.5rem !important;
+        width: 1.5rem !important;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 24px !important;
+        height: 2px !important;
+    }
+    #list-items li {
+        font-size: 0.8em;
+    }
+    #navbar #nav-head {
+        font-size: 1.2em;
+    }
+    #resume-butn{
+        width: 10%;
+    }
+    #resume-butn button{
+        font-size: 0.7em;
+    }
+    #occupation {
+        font-size: 1.1em;
+    }
+
+    #about-me h1 {
+        font-size: 1.5em;
+    }
+    .edu-cards .card-img {
+        height: 42%;
+    }
+    .edu-cards .card-content h5 {
+        font-size: 1em;
+    }
+   .card-content p{
+        font-size: 1em;
+   }
+   .skills {
+       width: 33%;
+   }
+    #intrest-content h6 {
+       font-size: 1.05em;
+   }
+   #intrest-content p{
+    font-size: 0.9em;
+   }
+   #follow-me h6 {
+    font-size: 1em;
+}
+#follow-links div a {
+    font-size: 1em;
+}
+    }
+
+
+
+    @media screen and (max-width:600px)
+{
+    #navbar{
+        height: 9vw;
+        padding: 0;
+        padding-bottom: 8px;
+        
+    }
+    #about {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        height:30em;
+        padding-top:10px;
+    }
+    #about-me p {
+        width: 50%;
+    }
+    #about-image {
+        width: 46%;
+        height: 35%;
+    }
+    #resume-butn {
+        width: 12%;
+    }
+    #education-cards{
+        /* flex-direction: column;
+        align-items: center; */
+       height: auto;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+    }
+    .edu-cards .card-img {
+        height: 110px;
+    }
+    .edu-cards {
+        width: 40%;
+    }
+    .edu-cards .card-content h5 {
+        font-size: 0.9em;
+    }
+    .card-content p {
+        font-size: 0.9em;
+    }
+    .skills {
+        width: 44%;
+    }
+    .skill-content p:nth-child(2) {
+        font-size: 13px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        height: 1.2rem !important;
+        width: 1.2rem !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 19px !important;
+        height: 1px !important;
+    }
+    #intrest-content h6 {
+        font-size: 1em;
+    }
+    #intrest-content p {
+        font-size: 0.8em;
+    }
+    #inp{
+        height:34px;
+        font-size:1em;
+    }
+    #ques-btn{
+        height:34px;
+    }
+}
+@media screen and (max-width:537px)
+{
+    #list-items li {
+        font-size: 0.7em;
+        margin-left: 1px;
+    }
+    #contact-form h6{
+        font-size: 0.9em;
+    }
+    #ques-btn {
+        height: 31px;
+        font-size: 0.8em;
+    }
+    #inp{
+        height: 31px;
+    }
+
+
+}
+
+
+@media screen and (max-width:460px)
+{
+#education-cards{
+    flex-direction: column;
+    align-items: center;
+}
+.edu-cards .card-content h5 {
+    font-size: 0.85em;
+}
+.card-content p {
+    font-size: 0.8em;
+}
+.edu-cards{
+    width:58%;
+    margin-bottom:15px;
+}
+.edu-cards .card-img {
+    height: 100px;
+}
+.section-heading {
+    font-size: 1.1em;
+}
+.skills {
+    width: 60%;
+    padding: 8px;
+
+}
+.skills:nth-child(5)
+{
+    margin-left:25px;
+}
+.skills img{
+    width:26%;
+}
+.carousel-caption h5 {
+     font-size: 0.9em;
+}
+.carousel-caption p {
+    font-size: 12px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 1rem !important;
+}
+#flex-interest{
+    flex-wrap: wrap;
+}
+#intrest-content {
+    width: 100%;
+    text-align: center;
+}
+#intrest h1{
+    text-align: center;
+}
+#navbar{
+    height:11vw;
+}
+#navbar #list-items{
+    display: none;
+
+}
+.dropdown{
+    display: block;
+    left:20px;
+    top:5px;
+}
+.dropdown-toggle{
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-toggle:hover{
+    color:black ;
+}
+
+#hire-btn button{
+    font-size: 0.5em;
+}
+.dropdown ul{
+    font-size: 0.9em;
+    font-family: 'Lato',sans-serif !important;
+    transition: all 0.8s ease-out;
+    color:#ffd861;
+  
+}
+.dropdown ul a{
+    font-family: 'Lato',sans-serif;
+}
+
+
+#resume-butn {
+    width: 16%;
+}
+#about-image {
+    width: 90%;
+}
+#about-image img {
+    height: 87%;
+    width: 113%;
+}
+#main-about {
+    font-size: 0.9em;
+}
+#about-me h1 {
+    font-size: 1.4em;
+}
+#occupation {
+    font-size: 1em;
+}
+#contact-icon div{
+    margin-right:27px;
+}
+#contact-icon div a {
+    font-size: 0.9rem;
+}
+}
